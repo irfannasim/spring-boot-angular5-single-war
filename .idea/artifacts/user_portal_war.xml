@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="user-portal:war">
+    <output-path>$PROJECT_DIR$/user-portal/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>user-portal</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="user-portal-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="user-portal:war exploded" />
+    </root>
+  </artifact>
+</component>
